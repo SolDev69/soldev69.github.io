@@ -1,4 +1,4 @@
-heading {
+header {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -15,11 +15,36 @@ heading {
     font-family: Arial, sans-serif;
     margin: 10px; /* Add margin for spacing around the paragraph */
     padding: 20px; /* Optional padding for better spacing */
-    background-color: #ffffff; /* Change background color for contrast */
-    border-radius: 10px; /* Less rounded for paragraphs */
+    background-color: #fafafa; /* Change background color for contrast */
+    border-radius: 40px; /* Less rounded for paragraphs */
     font-size: 1em; /* Example font size for paragraphs */
     color: #666; /* Adjust text color */
     animation: slideInFromBottom 1s;
+}
+
+nav {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #d5ffee;
+    border-radius: 50px;
+}
+
+nav a {
+    color: #333;
+    padding: 2px;
+    margin: 2px;
+    background-color: #d5ffee;
+    border-radius: 10px;
+    border: 1px solid #92a39c;
+}
+
+nav a:hover {
+    color: #ebc6c6;
 }
 
 .paragraph.secondary {
@@ -48,4 +73,31 @@ heading {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    font-size: 0.8em; /* Smaller scale compared to header */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: slideInFromBottom 1s;
+    left: 0;
+    right: 0;
+}
+
+#soltweaks-logo {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    float: right;
+    padding: 10px;
 }
