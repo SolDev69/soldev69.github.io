@@ -20,6 +20,8 @@ header {
     font-size: 1em; /* Example font size for paragraphs */
     color: #666; /* Adjust text color */
     animation: slideInFromBottom 1s;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 nav {
@@ -95,9 +97,10 @@ footer {
 }
 
 #soltweaks-logo {
-    width: 128px;
-    height: 128px;
+    max-width: 128px;
+    max-height: 128px;
     border-radius: 50%;
     float: right;
     padding: 10px;
+    object-fit: contain;
 }
