@@ -1,0 +1,25 @@
+heading {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+}
+
+.paragraph {
+    font-family: Arial, sans-serif;
+    margin: 10px; /* Add margin for spacing around the paragraph */
+    padding: 20px; /* Optional padding for better spacing */
+    background-color: #ffffff; /* Change background color for contrast */
+    border-radius: 10px; /* Less rounded for paragraphs */
+    font-size: 1em; /* Example font size for paragraphs */
+    color: #666; /* Adjust text color */
+}
+
+.container {
+    text-align: center;
+}
