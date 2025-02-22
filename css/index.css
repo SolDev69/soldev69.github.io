@@ -104,3 +104,7 @@ footer {
     padding: 10px;
     object-fit: contain;
 }
+
+#description {
+    text-indent: 1em; /* Indent the first line of the paragraph */
+}
