@@ -8,6 +8,7 @@ heading {
     flex-direction: column;
     background-color: #f0f0f0;
     border-radius: 50px;
+    animation: slideInFromBottom 1s;
 }
 
 .paragraph {
@@ -18,8 +19,33 @@ heading {
     border-radius: 10px; /* Less rounded for paragraphs */
     font-size: 1em; /* Example font size for paragraphs */
     color: #666; /* Adjust text color */
+    animation: slideInFromBottom 1s;
+}
+
+.paragraph.secondary {
+    animation: slideInFromBottom 1s;
 }
 
 .container {
     text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
