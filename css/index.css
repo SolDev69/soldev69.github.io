@@ -106,5 +106,5 @@ footer {
 }
 
 .indented-paragraph {
-    text-indent: 1em; /* Indent the first line of the paragraph */
+    text-indent: 2em; /* Indent the first line of the paragraph */
 }
