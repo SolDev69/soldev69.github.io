@@ -13,12 +13,12 @@ header {
 
 .paragraph {
     font-family: Arial, sans-serif;
-    margin: 10px; /* Add margin for spacing around the paragraph */
-    padding: 20px; /* Optional padding for better spacing */
-    background-color: #fafafa; /* Change background color for contrast */
-    border-radius: 40px; /* Less rounded for paragraphs */
-    font-size: 1em; /* Example font size for paragraphs */
-    color: #666; /* Adjust text color */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #666;
     animation: slideInFromBottom 1s;
     overflow: scroll;
     scrollbar-width: none;
@@ -28,6 +28,7 @@ nav {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +41,7 @@ nav a {
     color: #333;
     padding: 2px;
     margin: 2px;
+    box-sizing: border-box;
     background-color: #d5ffee;
     border-radius: 10px;
     border: 1px solid #92a39c;
@@ -87,7 +89,7 @@ footer {
     align-items: center;
     flex-direction: column;
     background-color: #f0f0f0;
-    font-size: 0.8em; /* Smaller scale compared to header */
+    font-size: 0.8em;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -106,5 +108,5 @@ footer {
 }
 
 .indented-paragraph {
-    text-indent: 2em; /* Indent the first line of the paragraph */
+    text-indent: 2em;
 }
